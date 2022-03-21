@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log"
+    tools:context=".Student">
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"
+        android:gravity="center"
+        android:text="Student Login"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/white"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Login ID"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Enter your Login Id"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/white"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Enter your password "
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/darker_gray"
+        android:text="Login" />
+</LinearLayout>
